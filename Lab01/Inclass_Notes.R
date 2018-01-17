@@ -27,9 +27,10 @@ print(newAnswer)
 #comment, comment comment!
 
 #R has a lot of other use, than just a calculator.
+library(tidyverse)
 
 #Let's load in some data
-testData=read.csv("Week01/chickWeights.csv") #Don't forget to assign it to a variable!
+testData=read_csv("chickWeights.csv") #Don't forget to assign it to a variable!
 
 #now let's look at the first few rows
 head(testData)
